@@ -1,0 +1,39 @@
+.nav-container {
+    display: grid;
+    grid-template-columns: 20% 1fr 20%;
+    position: absolute;
+    width: 100vw;
+}
+.side {
+    z-index: 2;
+    color: aliceblue;
+    background-color: aqua;
+}
+
+.navbar {
+    z-index: 2;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 2rem;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 2rem 0rem;
+}
+
+.navbar ul li {
+    padding: 0 2rem;
+    color: var(--white);
+}
+
+
+@media only screen and (max-width: 920px) {
+    .nav-container {
+        display: flex;
+        margin-left: 10%;
+        overflow-x: hidden;
+    }
+}
