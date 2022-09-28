@@ -50,7 +50,6 @@ export default function Hero() {
                         </div>
                     </div>
                 </div>
-
                 <div class="wave">
                     <svg
                         data-name="Layer 1"
