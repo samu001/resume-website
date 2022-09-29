@@ -1,7 +1,28 @@
 .about-container {
-    display: block;
-    width: 620px;
-    background-color: var(--blue);
-    padding: 2rem;
+    display: flex;
+    max-width: 600px;
     margin-bottom: 2rem;
+    margin-top: 2rem;
+    
+    border: 2px solid var(--blue);
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+
+.abt-header {
+    color: var(--blue);
+    text-align: center;
+}
+.about-container p {
+    color: var(--blue);
+    line-height: 30px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .about-container {
+        margin: 2rem 2rem;
+    }
 }

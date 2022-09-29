@@ -4,12 +4,17 @@ import "./About.css";
 function About() {
     return (
         <>
+            <h2 className="abt-header">About me</h2>
             <div className="about-container -c">
-                <h2>About me</h2>
                 <p>
-                    Software engineer specialized in front-end technologies like
-                    React, HTML/CSS, and JavaScript. Proficient in UI/UX design
-                    for mobile and web applications
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
                 </p>
             </div>
         </>
