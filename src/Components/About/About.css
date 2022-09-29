@@ -1,0 +1,7 @@
+.about-container {
+    display: block;
+    width: 620px;
+    background-color: var(--blue);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,22 @@
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    color: var(--black);
+    width: 100%;
+    padding: 4rem 0;
+    justify-content: center;
+    align-items: center;
+}
+.section-title {
+    display: flex;
+    justify-content: start;
+    width: 60%;
+ 
+}
+
+.skillsEl-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: center;
+}

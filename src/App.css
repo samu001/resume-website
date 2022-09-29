@@ -6,14 +6,20 @@
   padding: 0;
   --red: #D8315B;
   --black: #040508;
-  --blue: #3A4167;
-  --white: #ffffff;
+  --blue: #253039;
+  --white: #F2F5EA;
   --grey: #dadada;
+  --blueBar: #328DC2;
+  --greenBar: #52B1AB;
 }
 
+body {
+  background-color: var(--white);
+  color: var(--white);
+}
 
 h1 {
-  color: white;
+  color: var(--white);
   font-size: 48px;
 }
 
@@ -36,7 +42,10 @@ h3 {
 }
 
 
-
+/* Center Block element with width */
+.-c{
+  margin: 0 auto;
+}
 
 
 

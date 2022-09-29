@@ -1,0 +1,76 @@
+.skill-container {
+    display: flex;
+    color: var(--black);
+    min-width: 390px;
+    margin: 10px;
+    height: 80px;
+}
+
+.img-wrapper-skill{
+    display: flex;
+    width: 60px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-wrapper-skill img {
+    width: 100%;
+}
+
+.skills-section h2 {
+    color: var(--red);
+    font-size: 42px;
+    margin-bottom: 3rem;
+}
+
+/* Bar level classes */
+
+.bar-info-container {
+    position: relative;
+    width: fit-content;
+}
+
+.bar-info-container h4 {
+
+}
+
+
+.bar_ {
+    position: relative;
+    width: 200px;
+    height: 25px;
+    background-color: var(--grey);
+    border-radius: 6px;
+    overflow: hidden;
+
+}
+
+.fill {
+    height: 100%;
+    position: absolute;
+    border-radius: 6px;
+    
+}
+
+.fill.Proficient {
+    position: absolute;
+    width: 70%;
+    background-color: var(--blueBar);
+    z-index: 2;
+
+}
+
+.fill.Skilled {
+    width: 56%;
+    background-color: var(--greenBar);
+}
+
+
+.level {
+    margin-left: 10px;
+    display: flex;
+    height: 100%;
+    width: fit-content;
+    padding-top: 20px;
+}
