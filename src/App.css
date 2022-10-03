@@ -41,16 +41,36 @@ h3 {
   color: var(--white);
 }
 
+.btn-cta:hover {
+  background: #981b3a;
+  transition: background 0.2s;
+}
+
+ul li:hover {
+  color: var(--red);
+}
+
+
 .btn-sec {
   border: 1px solid var(--white);
   background: none;
   color: var(--white);
-}
+}  
+
+
+.btn-sec:hover {
+  background: rgba(81, 81, 99, 0.4);
+  transition: background 0.2s;
+}  
 
 
 /* Center Block element with width */
 .-c{
   margin: 0 auto;
+}
+
+button:hover,li {
+  cursor: pointer;
 }
 
 

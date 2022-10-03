@@ -1,0 +1,70 @@
+.contact-section {
+    width: 100%;
+    background-color: var(--white);
+    position: relative;
+    padding: 9rem 0rem 4rem 0rem;
+}
+
+.contact-section h2 {
+    text-align: center;
+    color: var(--blue);
+}
+
+.wave-3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave-3 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 113px;
+}
+
+.wave-3 .shape-fill {
+    fill: var(--blue);
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+    color: white;
+    width: 240px;
+    min-width: fit-content;
+    margin: 0.4rem 2rem;
+    height: 180px;
+}
+
+.contact .icon {
+    font-size: 52px;
+}
+
+.contact p{
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+.contact .btn-sec {
+    height: 40px;
+    width: 120px;
+}
+
+.email-contact {
+    box-shadow: rgba(21, 247, 255, 0.4) 0px 8px 24px;
+}

@@ -3,7 +3,7 @@ import "./Skill.css";
 
 function Skill(props) {
     return (
-        <div className="skill-container">
+        <div id="skills" className="skill-container">
             <div className="img-wrapper-skill">
                 <img src={props.logo} alt="logo of skill" />
             </div>

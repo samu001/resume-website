@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./CodingProjects.css";
 import CodProject from "./CodProject";
 import CodingProjectsData from "../Data/CodingProjectsData";
+import DesignProjectsSection from "../DesignProjects/DesignProjectsSection";
 
 export default function CodingProjects() {
     const [codProjArr, setCodProjArr] = useState(CodingProjectsData);
@@ -20,7 +21,7 @@ export default function CodingProjects() {
     });
 
     return (
-        <div className="coding-projects-section">
+        <div id="coding projects" className="coding-projects-section">
             <div class="wave-2">
                 <svg
                     data-name="Layer 1"
@@ -38,6 +39,12 @@ export default function CodingProjects() {
                 <h2>Coding Projects</h2>
             </div>
             <div className="cod-projects-container">{codProjEl}</div>
+
+            <div className="cod-title">
+                <h2>Design Projects</h2>
+            </div>
+
+            <DesignProjectsSection />
         </div>
     );
 }

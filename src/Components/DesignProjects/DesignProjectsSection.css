@@ -1,0 +1,22 @@
+
+.design-projects-section {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.design-projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    color: var(--black);
+    justify-content: center;
+}
+
+.design-projects-section .btn-sec {
+    display: block;
+    margin: 3rem auto 0.4rem auto;
+    width: 150px;
+    height: 40px;
+}
+
+

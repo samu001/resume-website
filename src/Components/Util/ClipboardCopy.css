@@ -1,0 +1,30 @@
+.clipboard-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 80%;
+}
+
+.clip-btn {
+    width: 100%;
+    height: 40px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+}
+
+.clipboard-wrapper input {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.clip-icon {
+    font-size: 14px;
+    text-align: center;
+    margin-right: 5px;
+}

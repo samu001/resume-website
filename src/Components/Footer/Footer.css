@@ -1,0 +1,19 @@
+.footer {
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.footer p {
+    width: 70%;
+    text-align: center;
+}
+
+.btn-sec.footer-btn {
+    height: 40px;
+    width: 120px;
+    margin-top: 18px;
+}

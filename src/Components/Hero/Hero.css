@@ -132,6 +132,10 @@
     fill: var(--white);
 }
 
+.nav-link:hover {
+    color: var(--red);
+    transition: color 0.2s;
+}
 
 @media only screen and (max-width: 780px) {
 

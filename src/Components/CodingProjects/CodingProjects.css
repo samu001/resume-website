@@ -7,7 +7,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    padding: 12rem 0;
+    padding-top: 11rem;
 }
 
 .cod-title {
@@ -39,7 +39,7 @@
 
 
 .cod-projects-container {
-    padding-top: 3rem;
+    padding: 2rem 0;
     display: flex;
     width: 100%;
     justify-content: center;

@@ -4,18 +4,64 @@ import Navbar from "../Navbar/Navbar";
 import { AiFillBehanceCircle } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
+import { Link } from "react-scroll";
 
 export default function Hero() {
     return (
         <>
-            <div className="hero-container">
+            <div id="hero" className="hero-container">
                 <div className="hero-grid">
                     <div className="top-nav">
                         <ul>
-                            <li>About Me</li>
-                            <li>Skillset</li>
-                            <li>Coding Projects</li>
-                            <li>Design Projects</li>
+                            <li>
+                                <Link
+                                    className="nav-link"
+                                    to="skills"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-110}
+                                    duration={500}
+                                >
+                                    Skillset
+                                </Link>
+                            </li>
+
+                            <li>
+                                <Link
+                                    className="nav-link"
+                                    to="coding projects"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={140}
+                                    duration={500}
+                                >
+                                    Coding Projects
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    className="nav-link"
+                                    to="design projects"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-110}
+                                    duration={500}
+                                >
+                                    Design Projects
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    className="nav-link"
+                                    to="contact"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-5}
+                                    duration={500}
+                                >
+                                    Contact
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                     <div className="hero-left">
