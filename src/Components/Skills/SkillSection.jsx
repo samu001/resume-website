@@ -9,6 +9,7 @@ function SkillSection() {
     const skillEl = skillsArr.map((item) => {
         return (
             <Skill
+                key={item.skillName}
                 skillName={item.skillName}
                 level={item.level}
                 logo={item.logo}

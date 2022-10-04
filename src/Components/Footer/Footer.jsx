@@ -5,10 +5,17 @@ export default function Footer() {
     return (
         <div className="footer">
             <p>
-                Thank you for vistiing my personal webpage. This webpage was
-                made with React, the github repository can be accessed by
-                clicking here. If you liked my work do not hesitate in reaching
-                out.
+                Thank you for visiting my personal portafolio/resume website.
+                This webpage was created with React, the github repository can
+                be accessed by{" "}
+                <a
+                    className="resume-git"
+                    href="https://github.com/samu001/resume-website"
+                    target="_blank"
+                >
+                    clicking here
+                </a>
+                . If you liked my work, please do not hesitate in reaching out.
             </p>
             <button className="btn-sec footer-btn">
                 <Link

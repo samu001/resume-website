@@ -17,3 +17,8 @@
     width: 120px;
     margin-top: 18px;
 }
+
+.resume-git {
+   color: var(--white);
+   text-decoration: underline;
+}

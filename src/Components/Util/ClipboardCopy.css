@@ -14,6 +14,11 @@
     text-align: center;
 }
 
+.clip-btn:hover {
+    background: rgba(117, 117, 135, 0.4);
+    transition: background 0.2s;
+}
+
 .clipboard-wrapper input {
     background: none;
     border: none;

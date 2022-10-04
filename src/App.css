@@ -33,6 +33,11 @@ h3 {
   font-weight: 300;
 }
 
+a {
+  text-decoration: none;
+}
+
+
 /* Helper Classes */
 .btn-cta {
   background: var(--red);
@@ -55,11 +60,13 @@ ul li:hover {
   border: 1px solid var(--white);
   background: none;
   color: var(--white);
+  text-decoration: none;
 }  
 
 
+
 .btn-sec:hover {
-  background: rgba(81, 81, 99, 0.4);
+  background: rgba(117, 117, 135, 0.4);
   transition: background 0.2s;
 }  
 

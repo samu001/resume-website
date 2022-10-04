@@ -12,6 +12,8 @@ export default function DesignProjectsSection() {
                 title={item.title}
                 description={item.description}
                 imgUrl={item.imgUrl}
+                url={item.url}
+                key={item.url}
             />
         );
     });
@@ -19,7 +21,10 @@ export default function DesignProjectsSection() {
     return (
         <div className="design-projects-section">
             <div className="design-projects-container">{projectEl}</div>
-            <button className="btn-sec">See All</button>
+
+            <a href="https://www.behance.net/samuelperez01" target="_blank">
+                <button className="btn-sec">See All</button>
+            </a>
         </div>
     );
 }
