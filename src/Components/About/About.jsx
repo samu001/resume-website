@@ -9,7 +9,7 @@ function About() {
                 <p>
                     I'm a dedicated, outgoing software engineer. I have a
                     passion for everything programming and design related,
-                    That's why I usually combine both of them in my projects. I
+                    that's why I usually combine both of them in my projects. I
                     will finalize my bachelors in computer science next fall at
                     Florida International University. Aside from being a
                     developer, my hobbies are baseball, karting, reading and
