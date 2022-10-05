@@ -153,10 +153,8 @@
     transition: color 0.2s;
 }
 
-
-
 /********************500 and down***************************/
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
 
 .hero-container {
     background-color: var(--blue);
@@ -251,13 +249,11 @@
 .hero-center {
     display: block;
 }
-
- 
 }
 
 
 /* 400 and up */
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 500px) {
 
     .hero-grid{
         display: flex;
@@ -341,8 +337,6 @@
     padding-left: 2rem;
 }
 
-
-
 .main-info button {
     min-width: 180px;
     padding: 10px 0;
@@ -354,6 +348,5 @@
     color: var(--grey);
     font-size: 18px;
 }
-
 }
 
