@@ -69,8 +69,8 @@
     box-shadow: rgba(21, 247, 255, 0.4) 0px 8px 24px;
 }
 
-
-@media only screen and (max-width: 400px)  {
+/* 5000 and down */
+@media only screen and (max-width: 500px)  {
     .contact-section {
         padding: 2rem 0rem;
     }

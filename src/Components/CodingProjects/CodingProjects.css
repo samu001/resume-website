@@ -47,7 +47,8 @@
     flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 400px) {
+/* 500 and down */
+@media only screen and (max-width: 500px) {
     .wave-2 {
         display: none;
     }

@@ -3,7 +3,6 @@ import "./CodProject.css";
 
 export default function CodProject(props) {
     function handleClick(value) {
-        // console.log(value);
         window.open(value);
     }
 
