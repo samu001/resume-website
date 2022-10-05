@@ -22,7 +22,12 @@
 
 
 @media only screen and (max-width: 700px) {
+
+    .abt-header {
+        margin-top: 2rem;
+    }
+
     .about-container {
-        margin: 2rem 2rem;
+        margin: 2rem 1.2rem;
     }
 }

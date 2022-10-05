@@ -19,7 +19,6 @@
 }
 
 
-
 /* Bar level classes */
 
 .bar-info-container {
@@ -39,7 +38,6 @@
     background-color: var(--grey);
     border-radius: 6px;
     overflow: hidden;
-
 }
 
 .fill {
@@ -69,4 +67,27 @@
     height: 100%;
     width: fit-content;
     padding-top: 20px;
+}
+
+
+@media only screen and (max-width: 500px){
+    .img-wrapper-skill{
+        display: none;
+    }
+
+    .skill-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        min-width: 390px;
+        margin: 0;
+        height: 80px;
+    }
+    
+    .level {
+        margin-left: 7px;
+        width: 100px;
+    }
+
+
 }

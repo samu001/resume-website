@@ -14,6 +14,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    padding-top: 2rem;
 }
 
 .wave-2{
@@ -44,4 +45,32 @@
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 400px) {
+    .wave-2 {
+        display: none;
+    }
+
+    .wave-3 {
+        display: none;
+    }
+
+    .coding-projects-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 2rem;
+    }
+
+        
+    .cod-projects-container {
+        padding: 0;
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
