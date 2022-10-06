@@ -25,7 +25,6 @@
     justify-content: center;
 }
 
-
 @media only screen and (max-width: 500px){
     .skills-section {
         display: block;
@@ -40,7 +39,5 @@
         padding: 0;
         margin: 0;
     }
-    
-
 }
 

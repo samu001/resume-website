@@ -20,7 +20,7 @@ function SkillSection() {
     return (
         <div className="skills-section">
             <div className="section-title">
-                <h2>Skillset</h2>
+                <h2>Capabilities</h2>
             </div>
             <div className="skillsEl-wrapper">{skillEl}</div>
         </div>

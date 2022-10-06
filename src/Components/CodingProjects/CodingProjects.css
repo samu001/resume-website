@@ -48,12 +48,8 @@
 }
 
 /* 500 and down */
-@media only screen and (max-width: 500px) {
-    .wave-2 {
-        display: none;
-    }
-
-    .wave-3 {
+@media only screen and (max-width: 450px) {
+    .wave-2, .wave-3 {
         display: none;
     }
 
@@ -67,11 +63,11 @@
 
         
     .cod-projects-container {
-        padding: 0;
         display: flex;
+        margin: 0;
+        padding: 0;
         width: 100%;
         overflow: hidden;
-        justify-content: center;
         flex-wrap: wrap;
     }
 }

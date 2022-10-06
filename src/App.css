@@ -37,7 +37,6 @@ a {
   text-decoration: none;
 }
 
-
 /* Helper Classes */
 .btn-cta {
   background: var(--red);
@@ -55,23 +54,20 @@ ul li:hover {
   color: var(--red);
 }
 
-
 .btn-sec {
   border: 1px solid var(--white);
   background: none;
   color: var(--white);
   text-decoration: none;
+  height: 38px;
 }  
-
-
 
 .btn-sec:hover {
   background: rgba(117, 117, 135, 0.4);
   transition: background 0.2s;
 }  
 
-
-/* Center Block element with width */
+/* Center Block element with a width */
 .-c{
   margin: 0 auto;
 }
