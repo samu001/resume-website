@@ -4,7 +4,7 @@ import { AiFillBehanceCircle } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { Link } from "react-scroll";
-import pdf from "../../Files/Resume.pdf";
+import pdf from "../../Files/ResumeSP.pdf";
 
 export default function Hero() {
     return (
